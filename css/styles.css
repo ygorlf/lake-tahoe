@@ -1,5 +1,4 @@
 /* General tag Styles... */
-
 body {
 	color: lightslategrey;
 }
@@ -19,4 +18,18 @@ h2 {
 h3 {
 	font-size: 20px;
 	color: #48525c;
+}
+
+
+/* About Section */
+#about {
+	border: 
+}
+
+/* Tips Section */
+
+/* Main Footer Section */
+#main-footer {
+	padding: 60px 0;
+	border-bottom: 10px solid orange;
 }
