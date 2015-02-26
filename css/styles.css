@@ -3,10 +3,6 @@ body {
 	color: lightslategrey;
 }
 
-header {
-	background-color: orange;
-}
-
 h1 {
 	font-size: 90px;
 }
@@ -20,13 +16,24 @@ h3 {
 	color: #48525c;
 }
 
+.t-border {
+	border-top: 2px solid lightgrey;
+}
+
+/* Main Header */
+.main-header {
+	background-color: orange;
+}
 
 /* About Section */
-#about {
-	border: 
+.about {
+	text-align: center;
 }
 
 /* Tips Section */
+.tips {
+	
+}
 
 /* Main Footer Section */
 #main-footer {
