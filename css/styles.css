@@ -1,6 +1,7 @@
 /* General tag Styles... */
 body {
 	color: lightslategrey;
+	font-size: 120%;
 }
 
 h1 {
@@ -21,6 +22,10 @@ h3 {
 	border-top: 2px solid lightgrey;
 }
 
+a:link { color: orange; }
+
+a:visited { color: lightblue; }
+
 /* Main Header */
 .main-header {
 	background-color: orange;
@@ -39,6 +44,12 @@ h3 {
 /* Tips Section */
 .tips {
 	
+}
+
+.about,
+.tips {
+	width: 60%;
+	margin: 0 auto;
 }
 
 /* Main Footer Section */
