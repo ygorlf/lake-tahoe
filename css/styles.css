@@ -6,7 +6,7 @@ body {
 
 h1 {
 	font-size: 5.625em; /* 90px/16px = 5.625em */
-	color: white;
+	color: rgba(255, 255, 255, .9);
 }
 
 h2 {
@@ -22,13 +22,15 @@ h3 {
 	border-top: 2px solid lightgrey;
 }
 
-a:link { color: orange; }
+a:link { color: #ffa949; }
 
 a:visited { color: lightblue; }
 
+a:hover { color: rgba(255, 169, 73, .6); }
+
 /* Main Header */
 .main-header {
-	background-color: orange;
+	background-color: #ffa949;
 }
 
 .title {
@@ -55,5 +57,5 @@ a:visited { color: lightblue; }
 /* Main Footer Section */
 #main-footer {
 	padding: 60px 0;
-	border-bottom: 10px solid orange;
+	border-bottom: 10px solid #ffa949;
 }
