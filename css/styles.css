@@ -1,20 +1,20 @@
 /* General tag Styles... */
 body {
 	color: lightslategrey;
-	font-size: 120%;
+	font-size: 16px;
 }
 
 h1 {
-	font-size: 90px;
+	font-size: 5.625em; /* 90px/16px = 5.625em */
 	color: white;
 }
 
 h2 {
-	font-size: 53px;
+	font-size: 3.312em; /* 53px/16px = 3.312em */
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 1.25em; /* 20px/16px = 1.25em */
 	color: #48525c;
 }
 
@@ -33,7 +33,7 @@ a:visited { color: lightblue; }
 
 .title {
 	color: white;
-	font-size: 26px;
+	font-size: 1.625em; /* 26px/16px = 1.625em */
 }
 
 /* About Section */
