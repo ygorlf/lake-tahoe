@@ -6,11 +6,15 @@ body {
 
 h1 {
 	font-size: 5.625em; /* 90px/16px = 5.625em */
+	font-weight: normal;
+	text-transform: uppercase;
 	color: rgba(255, 255, 255, .9);
 }
 
 h2 {
 	font-size: 3.312em; /* 53px/16px = 3.312em */
+	font-weight: normal;
+	text-decoration: underline;
 }
 
 h3 {
@@ -18,34 +22,24 @@ h3 {
 	color: #48525c;
 }
 
-.t-border {
-	border-top: 2px solid lightgrey;
+/* Pseudo Class Styles */
+a:link { 
+	text-decoration: none;
+	color: #ffa949; 
 }
-
-a:link { color: #ffa949; }
 
 a:visited { color: lightblue; }
 
 a:hover { color: rgba(255, 169, 73, .6); }
 
-/* Main Header */
+/* Class Styles */
 .main-header {
 	background-color: #ffa949;
 }
 
-.title {
-	color: white;
-	font-size: 1.625em; /* 26px/16px = 1.625em */
-}
-
-/* About Section */
+.main-header,
 .about {
 	text-align: center;
-}
-
-/* Tips Section */
-.tips {
-	
 }
 
 .about,
@@ -54,7 +48,16 @@ a:hover { color: rgba(255, 169, 73, .6); }
 	margin: 0 auto;
 }
 
-/* Main Footer Section */
+.title {
+	color: white;
+	font-size: 1.625em; /* 26px/16px = 1.625em */
+}
+
+.t-border {
+	border-top: 2px solid lightgrey;
+}
+
+/* Id Styles */
 #main-footer {
 	padding: 60px 0;
 	border-bottom: 10px solid #ffa949;
