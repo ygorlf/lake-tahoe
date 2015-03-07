@@ -16,11 +16,14 @@ h2 {
 	font-size: 3.312em; /* 53px/16px = 3.312em */
 	font-weight: normal;
 	text-decoration: underline;
+	margin-bottom: 0.5em; /* 23px/53 = 0.433em */
 }
 
 h3 {
 	font-size: 1.25em; /* 20px/16px = 1.25em */
+	margin-bottom: 1em; /* 20px/20px = 1em */
 	color: #48525c;
+	text-decoration: none;
 }
 
 /* Pseudo Class Styles */
@@ -43,12 +46,6 @@ a:hover { color: rgba(255, 169, 73, .6); }
 	text-align: center;
 }
 
-.about,
-.tips {
-	width: 60%;
-	margin: 0 auto;
-}
-
 .title {
 	color: white;
 	font-size: 1.625em; /* 26px/16px = 1.625em */
@@ -62,4 +59,21 @@ a:hover { color: rgba(255, 169, 73, .6); }
 #main-footer {
 	padding: 60px 0;
 	border-bottom: 10px solid #ffa949;
+}
+
+/* Layout Styles */
+.about,
+.tips,
+#main-footer {
+	width: 60%;
+	margin: auto;
+}
+
+.wildlife {
+	margin: 105px 0 60px;
+	padding: 12% 24%;
+
+	color: white;
+	background-color: #434a52;
+	border-top: 10px solid #ffa949;
 }
