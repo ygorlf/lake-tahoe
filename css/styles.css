@@ -48,7 +48,12 @@ a:hover { color: rgba(255, 169, 73, .6); }
 
 /* Class Styles */
 .main-header {
+	height: 850px;
+	padding-top: 170px;
+	
 	background-color: #ffa949;
+	background: url('../img/mountains.jpg');
+	background-size: cover;
 }
 
 .main-header,
