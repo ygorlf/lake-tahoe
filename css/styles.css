@@ -21,7 +21,6 @@ h1 {
 h2 {
 	font-size: 3.312em; /* 53px/16px = 3.312em */
 	font-weight: normal;
-	text-decoration: underline;
 	margin-bottom: 0.5em; /* 23px/53 = 0.433em */
 }
 
@@ -90,6 +89,8 @@ a:hover { color: rgba(255, 169, 73, .6); }
 	padding: 12% 24%;
 
 	color: white;
-	background-color: #434a52;
 	border-top: 10px solid #ffa949;
+	background-color: #434a52;
+	background: url('../img/bear.jpg');
+	background-size: cover;
 }
