@@ -35,6 +35,15 @@ img {
 	max-width: 100%;
 }
 
+ul,
+ol {
+	margin: 30px 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
 /* Pseudo Class Styles */
 a:link { 
 	text-decoration: none;
@@ -52,6 +61,7 @@ a:hover { color: rgba(255, 169, 73, .6); }
 	
 	background-color: #ffa949;
 	background: url('../img/mountains.jpg');
+	background-attachment: fixed;
 	background-size: cover;
 }
 
@@ -84,6 +94,8 @@ a:hover { color: rgba(255, 169, 73, .6); }
 	margin: auto;
 }
 
+.arrow { width: 50px }
+
 .wildlife {
 	margin: 105px 0 60px;
 	padding: 12% 24%;
@@ -93,4 +105,20 @@ a:hover { color: rgba(255, 169, 73, .6); }
 	background-color: #434a52;
 	background: url('../img/bear.jpg');
 	background-size: cover;
+}
+
+.resorts,
+.tricks {
+	width: 46.5%;
+}
+
+.resorts { float: left; }
+
+.tricks { float: right; }
+
+/* Clearfix */
+.group::after {
+	content: "";
+	display: table;
+	clear: both;
 }
