@@ -62,8 +62,9 @@ a:hover { color: rgba(255, 169, 73, .6); }
 	height: 850px;
 	padding-top: 170px;
 	
-	background-color: #ffa949;
-	background: url('../img/mountains.jpg');
+	background: linear-gradient(#ffa949, transparent 90%),
+	            linear-gradient(0deg, #fff, transparent),
+				url('../img/mountains.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 }
