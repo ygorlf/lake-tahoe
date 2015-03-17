@@ -1,3 +1,13 @@
+/* Web Fonts */
+
+@font-face {
+	font-family: "Abolition Regular";
+	src: url('../fonts/abolition-regular-webfont.eot');
+  	src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abolition-regular-webfont.woff') format('woff'),
+       url('../fonts/abolition-regular-webfont.ttf') format('truetype');
+}
+
 /* General tag Styles... */
 * {
 	-webkit-box-sizing: border-box;
@@ -10,12 +20,18 @@ body {
 	font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+h1,
+h2 {
+	font-family: "Abolition Regular", Helvetica, Arial, sans-serif;
+}
+
 h1 {
 	font-size: 5.625em; /* 90px/16px = 5.625em */
 	font-weight: normal;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 1);
 	line-height: 1.3;
+	margin: 12px 0 0;
 
 	text-shadow: 0px 1px 1px rgba(0,0,0, .8);
 }
@@ -78,6 +94,10 @@ a:hover { color: rgba(255, 169, 73, .6); }
 .title {
 	color: white;
 	font-size: 1.625em; /* 26px/16px = 1.625em */
+	letter-spacing: .065em
+	font-weight: 200;
+	border-bottom: 2px solid;
+	padding-bottom: 10px;
 }
 
 .t-border {
@@ -116,7 +136,10 @@ a:hover { color: rgba(255, 169, 73, .6); }
 	margin: auto;
 }
 
-.arrow { width: 50px }
+.arrow { 
+	width: 50px;
+	margin-top: 150px;
+}
 
 .wildlife {
 	margin: 105px 0 60px;
