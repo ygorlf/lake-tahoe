@@ -111,7 +111,8 @@ a:hover { color: rgba(255, 169, 73, .6); }
 .tips {
 	width: 75%;
 	max-width: 900px;
-	padding: 0 50px;
+	padding-left: 50px;
+	padding-right: 50px;
 	margin: auto;
 }
 
